@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    width: 1300px;
+    margin: auto;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+
+header a{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Coolvetica', sans-serif;
+    position: relative;
+    float: center;
+    
+}
+a:hover{
+    color: rgb(255, 242, 0);
+}
+
+a:active{
+    color: aqua;
+}
+
+header{
+    text-align: center;
+    background-color: hwb(194 50% 5%);
+    margin-top: 10px;
+}
+
+#logo{
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+h3{
+    font-family: 'Coolvetica', sans-serif;
+}
+
+div table{
+ width: 90%;
+ margin: auto;
+ border: 1px solid rgb(255, 255, 255);
+ margin-top: 100px;
+ margin-bottom: 20px;
+}
+div table td {
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+h1{
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: 1000;
+    margin-top: 30px;
+}
+.h1:hover, .h1:focus, .h1:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+h2{
+    font-family: 'Coolvetica', sans-serif;
+    color: aqua;
+}
+
+p{
+    font-family: 'Coolvetica', sans-serif;
+}
+
+div.juan{
+   text-align: center;
+   margin-top: -809px;
+   margin-right: 60%;
+}
+
+div.daniel{
+    text-align: center;
+   
+}
+
+ 
+div.sandra{
+    text-align: center;
+    margin-top: -135px;
+    margin-left: 60%;
+ }
+
+ div.camilo{
+    text-align: center;
+    margin-top: 460px;
+    margin-right: 60%;
+ }
+ 
+ div.estiven{
+    text-align: center;
+    margin-top: 20px;
+    
+ }
+ 
+  
+ div.karen{
+     text-align: center;
+     margin-top: 5px;
+     margin-left: 60%;
+  }
+
+  .juan:hover, .juan:focus, .juan:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+  
+.daniel:hover, .daniel:focus, .daniel:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.sandra:hover, .sandra:focus, .sandra:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.camilo:hover, .camilo:focus, .camilo:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.estiven:hover, .estiven:hover:focus, .estiven:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.karen:hover, .karen:focus, .karen:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.laura:hover, .laura:focus, .laura:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+  
+.vannesa:hover, .vannesa:focus, .vannesa:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+  
+  
+  
+  
+
+  
+
+  footer{
+    background-color: hwb(194 50% 5%);
+}
+
+img#logo_footer{
+    width: 200px;
+    height: 40px;
+}
+
+#iconos{
+    margin-top: 17px;
+    margin-right: 15px;
+}
+
+
+
+

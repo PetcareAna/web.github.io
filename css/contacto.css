@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+header a{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 50px;
+    color: rgb(0, 0, 0);
+    font-family: "Fuente ana";
+    font-family: 'Coolvetica', sans-serif;
+    position: relative;
+    float: center;
+    
+}
+a:hover{
+    color: rgb(255, 242, 0);
+}
+
+a:active{
+    color: aqua;
+}
+
+header{
+    text-align: center;
+    background-color: hwb(194 50% 5%);
+}
+
+#logo{
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+#contenedor_1{
+    font-family: 'Coolvetica', sans-serif;
+    text-align: right;
+    background-color: rgb(153, 219, 245);
+    margin-bottom: 100px;
+    padding: 30px;
+    padding: auto;
+    margin-top: 100px
+    
+    
+}
+#boton_enviar{
+    width: 100px;
+    margin-top: 50px;
+}
+
+h1{
+    font-family: 'Coolvetica', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+#banner{
+    width: 100%;
+    margin-top: 50px;
+}
+
+form{
+    font-size: 30px;
+    text-align: right;
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.ubicación:hover, .ubicación:focus, .ubicación:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.ubicación{
+    margin-top: -350px;
+}
+
+ footer{
+    background-color: hwb(194 50% 5%);
+}
+
+img#logo_footer{
+    width: 200px;
+    height: 40px;
+}
+
+#iconos{
+    margin-top: 17px;
+    margin-right: 15px;
+}
+

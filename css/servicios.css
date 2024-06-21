@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+ header a{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 50px;
+    color: rgb(0, 0, 0);
+    font-family: "Fuente ana";
+    font-family: 'Coolvetica', sans-serif;
+    position: relative;
+    float: center;
+    
+}
+a:hover{
+    color: rgb(255, 242, 0);
+}
+
+a:active{
+    color: aqua;
+}
+
+header{
+    text-align: center;
+    background-color: hwb(194 50% 5%);
+    margin-top: 10px;
+}
+
+#logo{
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+#banner_2{
+    width: 100%; 
+    margin-top: 60px;
+}
+
+H1{
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: 1000;
+    margin-top: 10px;
+    animation: mover_izquierda 3s;
+    animation-fill-mode: forwards ;
+}
+
+@keyframes mover_izuiqerda{
+    from{
+        transform:translateX(-100px);
+    }
+
+    to{
+        transform: translateX(10px);
+    }
+        
+}
+
+.consultas{
+    width: 300px;
+    text-align: center;
+}
+
+.cirugias{
+    width: 300px;
+}
+
+#vacunación{
+    width: 300px;
+}
+
+.peluqueria{
+    width: 300px;
+    text-align: center;
+}
+
+#accesorios{
+    width: 300px;
+}
+
+.enfermeria{
+    width: 300px;
+}
+
+ table{
+    width: 90%;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-bottom: 100px;
+   }
+    table td {
+       border: 1px solid rgb(255, 255, 255);
+       text-align: center;
+   }
+   
+   table td p{
+       margin-top: -250px;
+   }
+
+   .consultas:hover, .consultas_1:focus, .consultas_1:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.cirugias:hover, .cirugias:focus, .cirugias:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.peluqueria:hover, .peluqueria:focus, .peluqueria:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.enfermeria:hover, .enfermeria:focus, .enfermeria:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+   footer{
+    background-color: hwb(194 50% 5%);
+}
+
+img#logo_footer{
+    width: 200px;
+    height: 40px;
+}
+
+#iconos{
+    margin-top: 17px;
+    margin-right: 15px;
+}

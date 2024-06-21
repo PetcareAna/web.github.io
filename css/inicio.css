@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedor{
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+
+
+
+header a{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 50px;
+    color: rgb(0, 0, 0);
+    font-family: "Fuente ana";
+    font-family: 'Coolvetica', sans-serif;
+    position: relative;
+    float: center;
+    
+}
+a:hover{
+    color: rgb(255, 242, 0);
+}
+
+a:active{
+    color: aqua;
+}
+
+header{
+    text-align: center;
+    background-color: hwb(194 50% 5%);
+}
+
+#logo{
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+}
+
+#banner{
+   width: 100%; 
+   margin-top: 100px;
+}
+
+
+
+h1{
+    font-family: 'Caviar Dreams', sans-serif; 
+    font-size: 30px;
+    font-weight: 600;
+    border-right: 30px;
+    margin-top: 10px;
+}
+
+#texto_1{
+    font-size: 30px;
+    font-family: 'Coolvetica', sans-serif;;
+}
+
+
+#texto_1{
+    text-align: left;
+    border-top: 30px;
+    padding: 30px;
+}
+
+.imagen_1{
+border-radius: 30px;
+margin-top: -230px;
+box-shadow:0 0 20px rgb(0,0,0, 0.7);
+}
+
+#texto_2{
+    text-align:right;
+    font-size: 30px;
+    border-top: 30px;
+    padding: 30px;
+    font-family: 'Coolvetica', sans-serif;;
+    margin-top: 10px;
+}
+
+.imagen_2{
+   border-radius: 30px; 
+   margin-top: -245px;
+   box-shadow: 0 0 20px rgb(0,0,0, 0.7);
+}
+
+.imagen_1:hover, .imagen_1:focus, .imagen_1:active{
+    box-shadow: #000;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.imagen_2:hover, .imagen_2:focus, .imagen_2:active{
+    box-shadow: #3d3d3d;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+  
+
+footer{
+    background-color: hwb(194 50% 5%);
+}
+
+img#logo_footer{
+    width: 200px;
+    height: 40px;
+}
+
+#iconos{
+    margin-top: 17px;
+    margin-right: 15px;
+}
+
+
+
+    
